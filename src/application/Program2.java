@@ -19,13 +19,13 @@ public class Program2 {
 		Department dep = departmentDao.findById(1);
 		System.out.println(dep);
 		
-		/*System.out.println("\n=== TEST 2: findAll =======");
+		System.out.println("\n=== TEST 2: findAll =======");
 		List<Department> list = departmentDao.findAll();
 		for (Department d : list) {
 			System.out.println(d);
 		}
 
-		System.out.println("\n=== TEST 3: insert =======");
+		/*System.out.println("\n=== TEST 3: insert =======");
 		Department newDepartment = new Department(null, "Music");
 		departmentDao.insert(newDepartment);
 		System.out.println("Inserted! New id: " + newDepartment.getId());
